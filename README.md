@@ -70,3 +70,12 @@ This repository contains the complete implementation of our triple-phase privacy
     - `Structural_Validation.py`
     - `Technical_Validation.py`
 
+## Datasets
+
+This project uses the following datasets:
+
+1. **Heart Disease Data for Cleveland**  
+   The Cleveland heart disease dataset can be accessed from [UCI Machine Learning Repository: Cleveland Heart Disease Data](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/).
+
+2. **Heart Disease Data for Hungarian**  
+   The Hungarian heart disease dataset can be accessed from [UCI Machine Learning Repository: Hungarian Heart Disease Data](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/reprocessed.hungarian.data).
