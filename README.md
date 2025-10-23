@@ -6,7 +6,7 @@ This repository contains the complete implementation of our triple-phase privacy
 TriplePhase-Healthcare-AI-Privacy/Data
 ├── figures
 │ ├── 3d_overhead.pdf
-│ ├── risk_matrix_assesment.png
+│ ├── risk_matrix_assessment.png
 │ └── smooth_tradeoff.pdf
 ├── Hospital --- 01
 │ ├── Step - 02 --- TPPS
