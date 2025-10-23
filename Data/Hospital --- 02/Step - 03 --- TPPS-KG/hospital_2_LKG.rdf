@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:clin="http://clinicalkg.org/ontology#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#HeartDisease">
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5434351410714816</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8520932654204993</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6485407061891422</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7082957620621809</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5665339053143534</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6192354648471298</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5836545984332688</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6720339518280505</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7698078096397376</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.660655574578402</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5724346779892416</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9252227222494228</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7564706310773751</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.848907369315413</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7239536255288901</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7894722589257416</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6957152409334437</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6806901594456295</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.699146654064508</clin:hasConfidence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_69">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_90">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_15">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_43">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_112">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_34">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_9">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_45">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Severe"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_94">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_73">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_0">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_21">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Severe"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_22">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_65">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_71">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_105">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_99">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_14">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Senior"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_100">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_39">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Senior"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_97">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_7">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Senior"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_98">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_40">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_79">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_48">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_29">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_92">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Unknown"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_32">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Severe"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_82">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#Healthy">
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4408953532155206</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4143826976677609</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4184814016117082</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.475367196980262</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1904564747376919</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.2543260575819189</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3960705486942518</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0175811802897303</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.425442336164165</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.457684193827476</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.2591482657882913</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1543627082860249</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.263279933259493</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0888391274017875</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1316985951364607</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4730505177239913</clin:hasConfidence>
+    <clin:hasConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4414752066398119</clin:hasConfidence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_117">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_89">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_74">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_116">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_61">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_44">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_77">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_75">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_25">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_87">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_53">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_3">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Senior"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Severe"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_86">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_109">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_63">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_27">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_23">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_91">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_95">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_106">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Unknown"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_30">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_54">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Senior"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_12">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#hasConfidence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_64">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_85">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Unknown"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_93">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_52">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_58">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Senior"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Severe"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_72">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_110">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_33">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_20">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_104">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_42">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_115">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_55">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_35">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Senior"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_24">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_38">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Senior"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Severe"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_118">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_102">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_19">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_88">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Unknown"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_68">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_26">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Severe"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_114">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_111">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_17">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_80">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Severe"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_51">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Senior"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Severe"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_81">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_2">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_70">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Senior"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_78">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_6">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Senior"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_84">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_66">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_46">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_8">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Severe"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_62">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_36">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#ClinicalFeature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_59">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Severe"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_37">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_5">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_113">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_57">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Senior"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_76">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_83">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_31">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Young"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#thalach_Low">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#ClinicalFeature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_10">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Senior"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_28">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_1">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_41">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Severe"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_60">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_108">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_49">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_107">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#hasFeature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_18">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Severe"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_56">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Mild"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_4">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_103">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#age_MiddleAged">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#ClinicalFeature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_16">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#oldpeak_Mild">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#ClinicalFeature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#chol_High">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#ClinicalFeature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_50">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Senior"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_13">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_47">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_Senior"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#thalach_Normal">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#ClinicalFeature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_101">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Female</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#Diagnosis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_11">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Normal"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_96">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_High"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#HeartDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#age_Senior">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#ClinicalFeature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#hasDiagnosis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#patient_67">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#Patient"/>
+    <clin:hasSex>Male</clin:hasSex>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#age_MiddleAged"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#chol_Borderline"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#thalach_Low"/>
+    <clin:hasFeature rdf:resource="http://clinicalkg.org/ontology#oldpeak_Normal"/>
+    <clin:hasDiagnosis rdf:resource="http://clinicalkg.org/ontology#Healthy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#oldpeak_Severe">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#ClinicalFeature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#Patient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#thalach_High">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#ClinicalFeature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#chol_Unknown">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#ClinicalFeature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#chol_Borderline">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#ClinicalFeature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#oldpeak_Normal">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#ClinicalFeature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#chol_Normal">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#ClinicalFeature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://clinicalkg.org/ontology#age_Young">
+    <rdf:type rdf:resource="http://clinicalkg.org/ontology#ClinicalFeature"/>
+  </rdf:Description>
+</rdf:RDF>

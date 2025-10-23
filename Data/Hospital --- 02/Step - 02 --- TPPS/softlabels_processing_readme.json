@@ -1,0 +1,27 @@
+{
+  "input": "combined_phase_fkd.csv",
+  "n_rows": 119,
+  "n_cols": 15,
+  "outputs": {
+    "encrypted_file": "TPPS-data\\softlabels_encrypted.enc",
+    "encryption_key_file": "TPPS-data\\softlabels_encryption_key.key",
+    "noised_csv": "TPPS-data\\softlabels_noised.csv",
+    "synthetic_csv": "TPPS-data\\softlabels_synthetic.csv",
+    "anonymized_csv": "TPPS-data\\softlabels_anonymized.csv"
+  },
+  "dp_parameters": {
+    "epsilon": 1.0,
+    "delta": 1e-05,
+    "sigma_used": 4.844805262605389
+  },
+  "synthetic_params": {
+    "gmm_components": 5,
+    "n_samples": 119
+  },
+  "anonymization": {
+    "k": 5,
+    "initial_bins": 5,
+    "used_bins": 3,
+    "suppressed_rows": 114
+  }
+}

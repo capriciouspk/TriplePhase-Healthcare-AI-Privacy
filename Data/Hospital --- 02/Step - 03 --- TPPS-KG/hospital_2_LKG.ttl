@@ -1,0 +1,1034 @@
+@prefix clin: <http://clinicalkg.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+clin:Diagnosis a owl:Class .
+
+clin:hasConfidence a owl:DatatypeProperty .
+
+clin:hasDiagnosis a owl:ObjectProperty .
+
+clin:hasFeature a owl:ObjectProperty .
+
+clin:patient_0 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Female" .
+
+clin:patient_1 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_10 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Senior,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_100 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_101 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Female" .
+
+clin:patient_102 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_103 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_104 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Mild,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_105 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_106 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Unknown,
+        clin:oldpeak_Mild,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_107 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_108 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_109 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_11 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_110 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Mild,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_111 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_112 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_113 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_114 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Mild,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_115 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Mild,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_116 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_117 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_118 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_12 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_13 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_14 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Senior,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_15 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_High ;
+    clin:hasSex "Female" .
+
+clin:patient_16 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_17 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_18 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Severe,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_19 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_2 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_20 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_21 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Severe,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_22 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Mild,
+        clin:thalach_Low ;
+    clin:hasSex "Female" .
+
+clin:patient_23 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_24 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Mild,
+        clin:thalach_Low ;
+    clin:hasSex "Female" .
+
+clin:patient_25 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_26 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Severe,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_27 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_28 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Mild,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_29 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_3 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Senior,
+        clin:chol_High,
+        clin:oldpeak_Severe,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_30 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_31 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_32 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Severe,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_33 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_34 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_35 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Senior,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_36 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_Borderline,
+        clin:oldpeak_Mild,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_37 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_38 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_Senior,
+        clin:chol_Normal,
+        clin:oldpeak_Severe,
+        clin:thalach_Low ;
+    clin:hasSex "Female" .
+
+clin:patient_39 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Senior,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_4 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_40 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_Normal,
+        clin:oldpeak_Mild,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_41 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Severe,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_42 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Mild,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_43 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Mild,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_44 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Mild,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_45 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_Borderline,
+        clin:oldpeak_Severe,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_46 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_47 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Senior,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_48 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Mild,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_49 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_5 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Mild,
+        clin:thalach_Low ;
+    clin:hasSex "Female" .
+
+clin:patient_50 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_Senior,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_51 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_Senior,
+        clin:chol_Normal,
+        clin:oldpeak_Severe,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_52 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_53 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Female" .
+
+clin:patient_54 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Senior,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_55 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Female" .
+
+clin:patient_56 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Mild,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_57 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Senior,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_58 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Senior,
+        clin:chol_High,
+        clin:oldpeak_Severe,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_59 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Severe,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_6 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_Senior,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_60 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Mild,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_61 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Female" .
+
+clin:patient_62 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_63 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Mild,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_64 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_65 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_66 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_67 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_68 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_69 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_7 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Senior,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_70 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Senior,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_71 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_72 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_73 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_High,
+        clin:oldpeak_Mild,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_74 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_75 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_76 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_77 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Female" .
+
+clin:patient_78 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_79 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_8 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Severe,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_80 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Severe,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_81 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Mild,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_82 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_83 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_84 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_85 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Unknown,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_86 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_87 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Female" .
+
+clin:patient_88 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Unknown,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_89 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_9 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Male" .
+
+clin:patient_90 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_91 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_Young,
+        clin:chol_Normal,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_92 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Unknown,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_93 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Normal ;
+    clin:hasSex "Female" .
+
+clin:patient_94 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_95 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_96 a clin:Patient ;
+    clin:hasDiagnosis clin:HeartDisease ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_97 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:patient_98 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_High,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Female" .
+
+clin:patient_99 a clin:Patient ;
+    clin:hasDiagnosis clin:Healthy ;
+    clin:hasFeature clin:age_MiddleAged,
+        clin:chol_Borderline,
+        clin:oldpeak_Normal,
+        clin:thalach_Low ;
+    clin:hasSex "Male" .
+
+clin:thalach_High a clin:ClinicalFeature .
+
+clin:chol_Unknown a clin:ClinicalFeature .
+
+clin:ClinicalFeature a owl:Class .
+
+clin:oldpeak_Severe a clin:ClinicalFeature .
+
+clin:age_Senior a clin:ClinicalFeature .
+
+clin:oldpeak_Mild a clin:ClinicalFeature .
+
+clin:age_Young a clin:ClinicalFeature .
+
+clin:chol_Normal a clin:ClinicalFeature .
+
+clin:chol_Borderline a clin:ClinicalFeature .
+
+clin:HeartDisease clin:hasConfidence "0.5434351410714816"^^xsd:float,
+        "0.5665339053143534"^^xsd:float,
+        "0.5724346779892416"^^xsd:float,
+        "0.5836545984332688"^^xsd:float,
+        "0.6192354648471298"^^xsd:float,
+        "0.6485407061891422"^^xsd:float,
+        "0.660655574578402"^^xsd:float,
+        "0.6720339518280505"^^xsd:float,
+        "0.6806901594456295"^^xsd:float,
+        "0.6957152409334437"^^xsd:float,
+        "0.699146654064508"^^xsd:float,
+        "0.7082957620621809"^^xsd:float,
+        "0.7239536255288901"^^xsd:float,
+        "0.7564706310773751"^^xsd:float,
+        "0.7698078096397376"^^xsd:float,
+        "0.7894722589257416"^^xsd:float,
+        "0.848907369315413"^^xsd:float,
+        "0.8520932654204993"^^xsd:float,
+        "0.9252227222494228"^^xsd:float,
+        "1.0"^^xsd:float .
+
+clin:chol_High a clin:ClinicalFeature .
+
+clin:thalach_Low a clin:ClinicalFeature .
+
+clin:thalach_Normal a clin:ClinicalFeature .
+
+clin:Healthy clin:hasConfidence "0.0"^^xsd:float,
+        "0.0175811802897303"^^xsd:float,
+        "0.0888391274017875"^^xsd:float,
+        "0.1316985951364607"^^xsd:float,
+        "0.1543627082860249"^^xsd:float,
+        "0.1904564747376919"^^xsd:float,
+        "0.2543260575819189"^^xsd:float,
+        "0.2591482657882913"^^xsd:float,
+        "0.263279933259493"^^xsd:float,
+        "0.3960705486942518"^^xsd:float,
+        "0.4143826976677609"^^xsd:float,
+        "0.4184814016117082"^^xsd:float,
+        "0.425442336164165"^^xsd:float,
+        "0.4408953532155206"^^xsd:float,
+        "0.4414752066398119"^^xsd:float,
+        "0.457684193827476"^^xsd:float,
+        "0.4730505177239913"^^xsd:float,
+        "0.475367196980262"^^xsd:float .
+
+clin:age_MiddleAged a clin:ClinicalFeature .
+
+clin:oldpeak_Normal a clin:ClinicalFeature .
+
+clin:Patient a owl:Class .
+
