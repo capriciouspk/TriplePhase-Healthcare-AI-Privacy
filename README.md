@@ -2,7 +2,7 @@
 Official implementation of "Triple-Phase Privacy Shielding for Healthcare AI: A Federated and Blockchain-Enabled Framework with Formal Privacy Guarantees". This repository contains the source code, experiments, and analysis for our privacy-preserving healthcare AI framework combining federated learning with blockchain technology.
 ## Overview
 This repository contains the complete implementation of our triple-phase privacy framework for healthcare AI, combining federated learning with blockchain technology to provide formal privacy guarantees.
-## Repository Structure
+# Repository Structure
 TriplePhase-Healthcare-AI-Privacy/Data
 ├── figures
 │ ├── 3d_overhead.pdf
