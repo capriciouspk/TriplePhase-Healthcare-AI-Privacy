@@ -79,3 +79,8 @@ This project uses the following datasets:
 
 2. **Heart Disease Data for Hungarian**  
    The Hungarian heart disease dataset can be accessed from [UCI Machine Learning Repository: Hungarian Heart Disease Data](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/reprocessed.hungarian.data).
+
+## License
+
+This project is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode).
+
